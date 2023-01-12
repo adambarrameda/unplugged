@@ -98,6 +98,11 @@ article {
   border: 1px dashed saddlebrown;
 }
 
+.content-wrapper {
+  width: 90%;
+  margin: 50px 0;
+}
+
 /* --- Base Header - Footer Styles --- */
 
 header,
@@ -108,11 +113,21 @@ footer {
   flex-flow: row wrap;
 }
 
+header {
+  padding: 15px 0;
+}
+
 header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
+}
+
+header .header-divider {
+  width: 100%;
+  margin: 10px 0 20px;
 }
 
 header nav {
@@ -120,10 +135,31 @@ header nav {
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
 }
 
 header nav ul {
   list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+}
+
+footer .content-wrapper {
+  width: 55%;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer h4 {
+  padding: 20px 0;
+}
+
+.contact {
+  margin-bottom: 50px;
 }
 
 footer .social-icons {
@@ -138,12 +174,32 @@ footer .social p {
   align-items: center;
 }
 
+.copyright {
+  padding: 20px 0;
+}
+
 /* --- Mobile Styles - Homepage --- */
 
 .hero-area {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+}
+
+h3 {
+  padding: 20px 0;
+}
+
+.form-description {
+  margin-bottom: 30px;
+}
+
+#email {
+  padding: 1em;
+}
+
+#download {
+  padding: 20px 0;
 }
 
 aside {
@@ -159,6 +215,23 @@ aside {
   flex-flow: row wrap;
 }
 
+.features h2 {
+  margin-bottom: 60px;
+}
+
+.features p {
+  margin: 0;
+}
+
+.features article {
+  width: 60%;
+  padding: 30px 0;
+}
+
+.fontawesome-icon {
+  margin-bottom: 40px;
+}
+
 .features .features-items {
   display: flex;
   justify-content: center;
@@ -170,6 +243,15 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+}
+
+.reviews h2 {
+  margin-bottom: 40px;
+}
+
+.reviews h3 {
+  width: 50%;
+  padding: 20px 0;
 }
 
 /* --- Mobile Styles - About Page --- */
@@ -197,11 +279,20 @@ aside {
   flex-flow: row wrap;
 }
 
+.faq h2 {
+  margin-bottom: 40px;
+}
+
+.faq-content {
+  margin-bottom: 50px;
+}
+
 .faq .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 50px 0 0 0;
 }
 
 /* ==========================================================================
